@@ -9,7 +9,7 @@ app.use(cors());
  const port = process.env.PORT || 8080;
 
  app.get("/",(req, res) => {
-  res.send("Realiza una búsqueda en la Api de ML agregando a esta URL: /api/search/nombredelproductoquebuscas")
+  res.send("Search for a product on this URL: /api/search/nameoftheproductinsspanish")
 }) 
 
 app.get("/api/search/:palabrabuscada",(req, res) => {

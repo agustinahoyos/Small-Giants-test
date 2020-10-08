@@ -9,7 +9,6 @@ function App() {
     <React.Fragment>
     <div className="App">
      <Route path= '/' component={NavBar} />
-  
     <Route path= '/about' component={About} />
     </div>
     </React.Fragment>
