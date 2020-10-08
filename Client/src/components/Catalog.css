@@ -1,0 +1,18 @@
+.super-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.catalogue-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pagination-container{
+    margin: 3%;
+    padding: 2%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}

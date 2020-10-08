@@ -1,0 +1,11 @@
+.ProductCard-container{
+  width: 300px;
+  height: 400px;
+  margin: 5%;
+  padding: 1%;
+}
+
+.product-image{
+  width: 300px;
+  height: 300px;
+}
